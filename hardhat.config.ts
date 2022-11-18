@@ -1,5 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import { task } from "hardhat/config";
 require("dotenv").config();
 
 const { ETHEREUM_API_URL, GOERLI_API_URL, DEV_PRIVATE_KEY, PROD_PRIVATE_KEY } =
