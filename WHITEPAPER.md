@@ -180,17 +180,22 @@ This section will define the attribute details for each collection.
   - Blue
   - Brown
   - Green
+- Gender:
+  - Male
+  - Female
 - Glasses: (*optional; 25%*)
   - Eyeglasses
   - Sunglasses
 - HairColor:
-  - Bald
   - Black
   - Brown
   - Blonde
   - Blue
   - Green
   - Pink
+- HairStyle:
+  - Bald (*male only*)
+  - TBD
 - HatColor: (*optional; 50%*)
   - Black
   - Cyan
