@@ -1,7 +1,7 @@
 # Cryptopapies' Whitepaper
 
 Author: Christian Visintin
-Revision: 2022-11-19
+Revision: 2022-11-20
 Status: Approved
 
 ---
@@ -167,6 +167,9 @@ This section will define the attribute details for each collection.
 ### 5.1 Dubai Papi Collection attributes
 
 - Background: TBD
+- Beard: (*optional; male only*)
+  - None
+  - TBD
 - Car: (*optional; 50%*)
   - Baguette
   - Lambo
@@ -213,13 +216,9 @@ This section will define the attribute details for each collection.
   - TankTop
   - BlackTShirt
   - BlueTShirt
-  - OrangeTShirt
-  - RedTShirt
-  - BlueTShirt
-  - BlueTShirt
   - GreenTShirt
-  - OrangeTShirt
   - RedTShirt
+  - OrangeTShirt
   - WhiteTShirt
 
 Other's collection details will be added after the last dropped has been sold.
