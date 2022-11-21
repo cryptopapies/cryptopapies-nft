@@ -1,7 +1,7 @@
 # Cryptopapies' Whitepaper
 
 Author: Christian Visintin
-Revision: 2022-11-20
+Revision: 2022-11-21
 Status: Approved
 
 ---
@@ -196,6 +196,7 @@ This section will define the attribute details for each collection.
   - Blue
   - Green
   - Pink
+  - Red
 - HairStyle:
   - Bald (*male only*)
   - TBD
