@@ -167,14 +167,23 @@ This section will define the attribute details for each collection.
 ### 5.1 Dubai Papi Collection attributes
 
 - Background: TBD
-- Beard: (*optional; male only*)
-  - None
+- Beard: (*optional 80%; male only*)
   - TBD
 - Car: (*optional; 50%*)
   - Baguette
   - Lambo
   - Nikola
   - RollsRoyal
+- Car color (*optional; mandatory if Car*):
+  - Black
+  - Blue
+  - Gray
+  - Green
+  - Orange
+  - Pink
+  - Red
+  - White
+  - Yellow
 - EarPods: (*optional; 30%*)
   - Black
   - White
