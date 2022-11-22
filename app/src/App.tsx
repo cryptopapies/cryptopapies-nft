@@ -6,6 +6,7 @@ import styled from "styled-components";
 import MetamaskConnect from "./js/components/MetamaskConnect";
 import TransferOwnership from "./js/components/TransferOwnership";
 import { Container } from "react-bootstrap";
+import MintForm from "./js/components/MintForm";
 
 const Main = styled.main`
   height: 100vh;
@@ -13,30 +14,24 @@ const Main = styled.main`
   width: 100vw;
 `;
 
-const Form = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const ConnectForm = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 const App = () => {
   const { account } = useMetaMask();
+
+  const transferOwnership = account ? <TransferOwnership /> : <></>;
+  const mintForm = account ? <MintForm /> : <></>;
 
   return (
     <>
       <Main>
-        <ConnectForm>
-          <MetamaskConnect />
-        </ConnectForm>
+        <h1>Cryptopapies Management Console</h1>
+        <MetamaskConnect />
         <hr />
         <Container fluid hidden={!account}>
-          <TransferOwnership />
+          {transferOwnership}
+        </Container>
+        <hr />
+        <Container fluid hidden={!account}>
+          {mintForm}
         </Container>
       </Main>
     </>

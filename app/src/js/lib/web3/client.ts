@@ -20,6 +20,11 @@ export default class Web3Client {
       .send({ from: this.address });
   }
 
+  async mint(address: string, uri: string) {
+    const contract = this.getContract();
+    return contract.methods.mintPapi(address, uri).send({ from: this.address });
+  }
+
   private getContract() {
     return new this.web3.eth.Contract(ABI as AbiItem[], CONTRACT_ADDRESS);
   }

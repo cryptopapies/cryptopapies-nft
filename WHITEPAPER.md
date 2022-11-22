@@ -114,21 +114,21 @@ The start and final prices for each collection will be the following:
 
 1. The **Dubai Papi Collection**:
 
-    1st stage:  0.02ETH
-    10th stage: 0.149ETH
-    total value: 66.4ETH
-
-2. The **Cryptoguru Collection**:
-
     1st stage:  0.04ETH
     10th stage: 0.298ETH
     total value: 132.8ETH
 
-3. The **Wall Street Prodige Collection**:
+2. The **Cryptoguru Collection**:
 
     1st stage:  0.08ETH
     10th stage: 0.595ETH
     total value: 265.7ETH
+
+3. The **Wall Street Prodige Collection**:
+
+    1st stage:  0.16ETH
+    10th stage: 1.190ETH
+    total value: 531.4ETH
 
 4. TBD: 0.08ETH
 
