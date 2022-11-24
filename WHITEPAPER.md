@@ -1,7 +1,7 @@
 # Cryptopapies' Whitepaper
 
 Author: Christian Visintin
-Revision: 2022-11-21
+Revision: 2022-11-24
 Status: Approved
 
 ---
@@ -166,9 +166,20 @@ This section will define the attribute details for each collection.
 
 ### 5.1 Dubai Papi Collection attributes
 
-- Background: TBD
+- Background:
+  - BurjAlArab
+  - BurjKhalifa
+  - Downtown
+  - DubaiMarinaDay
+  - DubaiMarinaNight
+  - SkylineByNigh
 - Beard: (*optional 80%; male only*)
-  - TBD
+  - Chevron
+  - Chin Strip
+  - Circle Beard
+  - Royale Beard
+  - Short Boxed Beard
+  - Three Day Stubble Beard
 - Car: (*optional; 50%*)
   - Baguette
   - Lambo
@@ -207,9 +218,18 @@ This section will define the attribute details for each collection.
   - Pink
   - Red
 - HairStyle:
-  - Bald (*male only*)
-  - TBD
-- HatColor: (*optional; 50%*)
+  - Bob (*female*)
+  - Curly (*female*)
+  - Long (*female*)
+  - Pony Tail (*female*)
+  - Bald (*male*)
+  - Bun (*male*)
+  - Buzz (*male*)
+  - Ivy League (*male*)
+  - Long Top Short Sides (*male*)
+  - Pixie (*male*)
+  - Taper (*male*)
+- HatColor: (*optional; 20%*)
   - Black
   - Cyan
   - Green
