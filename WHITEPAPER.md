@@ -167,12 +167,12 @@ This section will define the attribute details for each collection.
 ### 5.1 Dubai Papi Collection attributes
 
 - Background:
-  - BurjAlArab
-  - BurjKhalifa
+  - Burj Al Arab
+  - Burj Khalifa
   - Downtown
-  - DubaiMarinaDay
-  - DubaiMarinaNight
-  - SkylineByNigh
+  - Dubai Marina By Day
+  - Dubai Marina By Night
+  - Skyline By Night
 - Beard: (*optional 80%; male only*)
   - Chevron
   - Chin Strip
