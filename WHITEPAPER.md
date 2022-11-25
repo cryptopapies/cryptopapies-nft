@@ -180,7 +180,7 @@ This section will define the attribute details for each collection.
   - Royale Beard
   - Short Boxed Beard
   - Three Day Stubble Beard
-- HeadPhones: (*optional; 30%*)
+- Headphones: (*optional; 30%*)
   - Black Ear Pods
   - White Ear Pods
   - Black Headphones
@@ -196,7 +196,7 @@ This section will define the attribute details for each collection.
 - Glasses: (*optional; 25%*)
   - Eyeglasses
   - Sunglasses
-- HairColor:
+- Hair Color:
   - Black
   - Brown
   - Blonde
@@ -204,7 +204,7 @@ This section will define the attribute details for each collection.
   - Green
   - Pink
   - Red
-- HairStyle:
+- Hair Style:
   - Bob (*female*)
   - Curly (*female*)
   - Long (*female*)
@@ -214,10 +214,11 @@ This section will define the attribute details for each collection.
   - Ivy League (*male*)
   - Pixie (*male*)
   - Taper (*male*)
-- HatColor: (*optional; 20%*)
+- Hat: (*optional; 20%*)
   - Black
   - Cyan
   - Green
+  - Pink
   - Red
 - Skin:
   - Dark
