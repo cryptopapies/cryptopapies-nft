@@ -1,7 +1,7 @@
 # Cryptopapies' Whitepaper
 
 Author: Christian Visintin
-Revision: 2022-11-24
+Revision: 2022-11-25
 Status: Approved
 
 ---
@@ -81,9 +81,9 @@ As stated in chapter 1, the NFT collection is made up of **7777** unique CryptoP
 All the auto-generated cryptopapies will be divided into 7 different collections with different charateristics:
 
 1. The **Dubai Papi Collection** will be the first drop, with 1000 unique NFTs in the collection, representing papies making money in Dubai and flexing their fancy houses and luxury cars in the Arabic city.
-2. The **Cryptoguru Collection** will be the second one, with 1000 unique NFTs, representing influencers making money with crypto trading and giving advice on Twitter.
-3. The **Wall Street Prodige Collection**, with 1000 unique NFTs, will be an old school collection of brokers in the 80's making money with stock trading in Wall St.
-4. TBD (1000 unique NFTs)
+2. The **OnlyFans Cryptomama Collection** will be the second collection, with 1000 unique NFTs, representing girls making stonks on OF 🤍💙 and selling courses on how to make money on this platform.
+3. The **Cryptoguru Collection** will be the third one, with 1000 unique NFTs, representing influencers making money with crypto trading and giving advice on Twitter.
+4. The **Wall Street Prodige Collection**, with 1000 unique NFTs, will be an old school collection of brokers in the 80's making money with stock trading in Wall St.
 5. TBD (1000 unique NFTs)
 6. TBD (1000 unique NFTs)
 7. TBD (1000 unique NFTs)
@@ -118,19 +118,19 @@ The start and final prices for each collection will be the following:
     10th stage: 0.298ETH
     total value: 132.8ETH
 
-2. The **Cryptoguru Collection**:
+2. The **OnlyFans Cryptomama Collection**
 
     1st stage:  0.08ETH
     10th stage: 0.595ETH
     total value: 265.7ETH
 
-3. The **Wall Street Prodige Collection**:
+3. The **Cryptoguru Collection**:
 
     1st stage:  0.16ETH
     10th stage: 1.190ETH
     total value: 531.4ETH
 
-4. TBD: 0.08ETH
+4. The **Wall Street Prodige Collection**:
 
     1st stage:  0.16ETH
     10th stage: 1.190ETH
@@ -180,24 +180,11 @@ This section will define the attribute details for each collection.
   - Royale Beard
   - Short Boxed Beard
   - Three Day Stubble Beard
-- Car: (*optional; 50%*)
-  - Baguette
-  - Lambo
-  - Nikola
-  - RollsRoyal
-- Car color (*optional; mandatory if Car*):
-  - Black
-  - Blue
-  - Gray
-  - Green
-  - Orange
-  - Pink
-  - Red
-  - White
-  - Yellow
-- EarPods: (*optional; 30%*)
-  - Black
-  - White
+- HeadPhones: (*optional; 30%*)
+  - Black Ear Pods
+  - White Ear Pods
+  - Black Headphones
+  - White Headphones
 - Eyes:
   - Black
   - Blue
@@ -224,9 +211,7 @@ This section will define the attribute details for each collection.
   - Pony Tail (*female*)
   - Bald (*male*)
   - Bun (*male*)
-  - Buzz (*male*)
   - Ivy League (*male*)
-  - Long Top Short Sides (*male*)
   - Pixie (*male*)
   - Taper (*male*)
 - HatColor: (*optional; 20%*)
@@ -240,16 +225,19 @@ This section will define the attribute details for each collection.
   - White
   - Asian
 - Top:
-  - BlackJacket
-  - BlueJacke
+  - Black Jacket (*male only*)
+  - Blue Jacket (*male only*)
   - Shirt
-  - TankTop
-  - BlackTShirt
-  - BlueTShirt
-  - GreenTShirt
-  - RedTShirt
-  - OrangeTShirt
-  - WhiteTShirt
+  - Cyan Shirt (*female only*)
+  - Yellow Shirt  (*female only*)
+  - Tank Top
+  - Black T-Shirt
+  - Blue T-Shirt
+  - Green T-Shirt
+  - Red T-Shirt
+  - Orange T-Shirt
+  - Pink T-Shirt (*female only*)
+  - White T-Shirt
 
 Other's collection details will be added after the last dropped has been sold.
 
