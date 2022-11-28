@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 import MetamaskConnect from "./js/components/MetamaskConnect";
 import TransferOwnership from "./js/components/TransferOwnership";
-import { Container } from "react-bootstrap";
+import { Alert, Container } from "react-bootstrap";
 import MintForm from "./js/components/MintForm";
 
 const Main = styled.main`
@@ -20,9 +20,18 @@ const App = () => {
   const transferOwnership = account ? <TransferOwnership /> : <></>;
   const mintForm = account ? <MintForm /> : <></>;
 
+  const alert = process.env.TEST ? (
+    <Alert variant="danger">
+      Warning, you're working on the test environment
+    </Alert>
+  ) : (
+    <></>
+  );
+
   return (
     <>
       <Main>
+        {alert}
         <h1>Cryptopapies Management Console</h1>
         <MetamaskConnect />
         <hr />

@@ -36,6 +36,8 @@ const MintForm = () => {
       .then(() => {
         setPendingTx(false);
         setError(undefined);
+        setAddress("");
+        setUri("");
       })
       .catch((e) => {
         setError(e.message);

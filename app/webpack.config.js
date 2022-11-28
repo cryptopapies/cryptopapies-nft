@@ -1,7 +1,7 @@
 const webpack = require("webpack");
 const path = require("path");
 
-const config = {
+module.exports = (env) => ({
   entry: ["react-hot-loader/patch", "./src/index.tsx"],
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -41,12 +41,11 @@ const config = {
       directory: "./dist",
     },
   },
+  plugins: [new webpack.DefinePlugin({ "process.env.TEST": env.TEST })],
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
     alias: {
       "react-dom": "@hot-loader/react-dom",
     },
   },
-};
-
-module.exports = config;
+});

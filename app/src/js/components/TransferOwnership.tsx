@@ -30,6 +30,7 @@ const TransferOwnership = () => {
       .then(() => {
         setPendingTx(false);
         setError(undefined);
+        setAddress("");
       })
       .catch((e) => {
         setError(e.message);

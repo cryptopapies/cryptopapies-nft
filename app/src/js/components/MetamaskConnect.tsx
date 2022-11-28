@@ -4,7 +4,11 @@ import Button from "react-bootstrap/Button";
 import { useMetaMask } from "metamask-react";
 import Logo from "./MetamaskConnect/Logo";
 
-const CHAIN_ID = "0x1";
+//const CHAIN_ID = "0x1";
+const GOERLI = "0x05";
+const MAIN_NET = "0x01";
+
+const CHAIN_ID = process.env.TEST ? GOERLI : MAIN_NET;
 
 const MetamaskConnect = () => {
   const { status, connect, account, chainId, switchChain } = useMetaMask();
